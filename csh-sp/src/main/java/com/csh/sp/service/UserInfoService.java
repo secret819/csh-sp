@@ -1,0 +1,14 @@
+package com.csh.sp.service;
+
+import java.util.List;
+
+import com.csh.sp.vo.UserInfo;
+
+public interface UserInfoService {
+
+	public List<UserInfo> getUserInfoList();
+	public UserInfo getUserInfo(Integer num);
+	public int insertUserInfo(UserInfo ui);
+	public int updateUserInfo(UserInfo ui);
+	public int deleteUserInfo(Integer num);
+}
